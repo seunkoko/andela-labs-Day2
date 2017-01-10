@@ -25,7 +25,31 @@
 		},
 
 		reverseString: function (param) {
-			return "";
+			let response = "";
+    
+			if (typeof (param) != "string") {
+				response = "test only for string";
+			} else if (!param) {
+				response = null;
+			} else if (param === generateReverse(param)) {
+				response = true;
+			} else {
+				response = generateReverse(param);
+			}
+			
+			return response;
 		}
 
 	}
+
+	function generateReverse(param) {
+    let paramArray = param.split("");
+    let paramLength = paramArray.length;
+    let newParam = "";
+    
+    for (let i = (paramLength - 1); i >= 0; i--) {
+      newParam += paramArray[i]; 
+    }
+    
+    return newParam;
+  }
