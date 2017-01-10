@@ -43,4 +43,20 @@ describe("Produce the reverse order of a word: ", function() {
     });
 
   });
+
+  describe("Case for arguments that are not strings", function() {
+
+    it("should return 'tests only for string' for 45", function() {
+      expect(reverseString(45)).toEqual('test only for string');
+    });
+
+    it("should return 'tests only for string' for []", function() {
+      expect(reverseString([])).toEqual('test only for string');
+    });
+
+    it("should return 'tests only for string' for boolean values e.g true", function() {
+      expect(reverseString(true)).toEqual('test only for string');
+    });
+
+  });
 });
