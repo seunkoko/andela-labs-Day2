@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "(an app that gets football data from football-data.org)",
+  "main": "app.js",
+  "scripts": {
+    "test": "tests/"
+  },
+  "author": "seunkoko",
+  "license": "ISC"
+}
