@@ -1,0 +1,14 @@
+{
+  "name": "andelabs",
+  "version": "1.0.0",
+  "description": "(it contains the functions for word-count-labs and reverse-string-labs)",
+  "main": "library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tests/"
+  },
+  "author": "seunkoko",
+  "license": "ISC"
+}
