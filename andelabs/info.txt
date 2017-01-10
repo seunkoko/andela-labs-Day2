@@ -1,0 +1,4 @@
+
+++ To run the mocha tests
+	- jasmine tests/testName.js
+		(where testName is either--> reverseStringLabTests.js or wordCountLabTests.js)
